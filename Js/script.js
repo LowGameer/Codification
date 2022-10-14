@@ -5,7 +5,6 @@ let radiobtn = document.querySelector(".radio-button");
 let codificar = document.querySelector("#codificar");
 let decodificar = document.querySelector("#decodificar");
 
-// Incremento da Cifra de César
 selecione.addEventListener("click", function () {
   if (selecione.value == "cifra") {
     incremento.style.display = "block";
@@ -13,8 +12,6 @@ selecione.addEventListener("click", function () {
     incremento.style.display = "none";
   }
 });
-
-// Base64
 
 function base64() {
   let mensagem = document.querySelector("#mensagem").value;
@@ -27,8 +24,6 @@ function base64() {
     return decodificado;
   }
 }
-
-// Cifra de César
 
 function cifraCesar() {
   let msg = document.querySelector("#mensagem").value;
@@ -59,7 +54,6 @@ function cifraCesar() {
   }
 }
 
-// Botão
 radiobtn.addEventListener("click", function () {
   if (codificar.checked) {
     btn.innerHTML = "Codificar Mensagem!";
