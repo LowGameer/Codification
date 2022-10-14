@@ -6,8 +6,7 @@ h3 {
 }
 
 body {
-  color: #8a8a8a;
-  background: rgb(43, 43, 43);
+  background: slategrey;
   font-family: cursive;
 }
 
@@ -32,7 +31,7 @@ h1 {
 }
 
 #mensagem {
-  background: rgba(215, 212, 208, 0.3);
+  background: rgba(255, 255, 255, 0.3);
   box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.5);
   border: none;
   border-radius: 4px;
@@ -45,7 +44,7 @@ textarea {
   font-weight: 400;
   font-size: 0.875rem;
   padding: 10px;
-  color: #afafaf;
+  color: #000000;
 }
 
 select {
@@ -53,6 +52,7 @@ select {
   height: 30px;
   border-radius: 5px;
   background: rgba(215, 212, 208, 0.3);
+  box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.5);
   font-family: cursive;
   color: #afafaf;
   margin-bottom: 20px;
@@ -101,6 +101,7 @@ button {
 
 button:hover {
   background-color: #000;
+  box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.5);
 }
 
 form {
